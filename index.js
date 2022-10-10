@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();             
 const port = 5001;                  
 
-let YOUR_WORST_FOOD = "peas"
-let YOUR_NAME = "ekemini"
+let YOUR_WORST_FOOD = "fast food"
+let YOUR_NAME = "douglas"
 
 app.get('/', (req, res) => {       
     res.send(`Welcome to ${YOUR_NAME}'s 2nd API`);     
